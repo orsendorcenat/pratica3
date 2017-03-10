@@ -51,7 +51,38 @@ form{
     padding: 1em;
     border: 1px solid #000;
     border-radius: 1em;
+    background: white
 }
 form div{
     margin-top: 1em;
+}
+a:link{
+    color: blue
+}
+a:visited{
+    color: blue
+}
+a:active{
+    color: red
+}
+label{
+    display:inline-block;
+    width: 100px;
+    text-align: right
+}
+input, textarea{
+    font: 1em Arial;
+    width: 300px
+}
+input:focus, textarea:focus{
+    border-color: red;
+}
+textarea{
+    vertical-align: top;
+}
+h1{
+    text-align: center;
+}
+#pp{
+    background:#81F7D8;
 }
