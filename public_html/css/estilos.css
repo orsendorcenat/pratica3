@@ -8,13 +8,13 @@ and open the template in the editor.
     Author     : 00140162
 */
 #cabecera{
-    /*aplicandotipo, alineacion y tamano de letra ala cabecera*/
+    /*aplicando tipo, alineacion y tamano de letra ala cabecera*/
  font-family: Forte;
  font-size: 40px;  
  text-align: center;
 }
 
-ul li{
+ul li{/*applicando estillo y background font-size display*/
     list-style:  none;
     background: #81F7D8;
     display: inline;
@@ -24,19 +24,19 @@ ul li{
     border-radius: 7px;
 }
 
-#menu{
+#menu{/*applicando text-align*/
     text-align: center;
 }
-#cuerpo{
+#cuerpo{/*applicando text align font family font size */
     text-align: center;
     font-family: Magneto;
     font-size: 26px
 }
-#pie{
+#pie{/*applicando background y text align*/
     background: #81F7D8;
     text-align: center; 
 }
-a:hover{
+a:hover{/*applicando color font*/
     color:red;
     font-size: 21px;
 }
@@ -51,7 +51,7 @@ form{
     padding: 1em;
     border: 1px solid #000;
     border-radius: 1em;
-    background: white
+    background: white;
 }
 form div{
     margin-top: 1em;
